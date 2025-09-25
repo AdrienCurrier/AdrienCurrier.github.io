@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+						http://www.w3.org/1999/xhtml http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+    <loc>https://www.math.sciences.univ-nantes.fr/~currier/en/informations.html</loc>
+	<lastmod>2025-06-24</lastmod>
+	<priority>1.00</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fr"
+               href="https://www.math.sciences.univ-nantes.fr/~currier/fr/informations.html"/>
+</url>
+
+<url>
+    <loc>https://www.math.sciences.univ-nantes.fr/~currier/en/research.html</loc>
+	<lastmod>2025-06-24</lastmod>
+	<priority>0.50</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fr"
+               href="https://www.math.sciences.univ-nantes.fr/~currier/fr/recherche.html"/>
+</url>
+
+<url>
+    <loc>https://www.math.sciences.univ-nantes.fr/~currier/en/activities.html</loc>
+	<lastmod>2025-06-24</lastmod>
+	<priority>0.50</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fr"
+               href="https://www.math.sciences.univ-nantes.fr/~currier/fr/activites.html"/>
+</url>
+
+<url>
+    <loc>https://www.math.sciences.univ-nantes.fr/~currier/en/curriculumvitae.html</loc>
+	<lastmod>2025-06-24</lastmod>
+	<priority>0.50</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fr"
+               href="https://www.math.sciences.univ-nantes.fr/~currier/fr/curriculumvitae.html"/>
+</url>
+
+<url>
+    <loc>https://www.math.sciences.univ-nantes.fr/~currier/pdf/Research_Statement_Currier_Adrien_2025_en.pdf</loc>
+	<lastmod>2025-06-24</lastmod>
+	<priority>0.10</priority>
+</url>
+
+<url>
+    <loc>https://www.math.sciences.univ-nantes.fr/~currier/pdf/CV_Currier_Adrien_2024-2025_en.pdf</loc>
+	<lastmod>2025-06-24</lastmod>
+	<priority>0.10</priority>
+</url>
+
+</urlset>

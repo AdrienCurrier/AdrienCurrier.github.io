@@ -1,0 +1,65 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Adrien Currier - Personal website</title>
+    <meta name="description" content="Adrien Currier's personal webpage, non-tenured teaching and research fellow in mathematics, interested in locally conformally symplectic geometry"/>
+    <meta http-equiv = "refresh" content = "1; url = ./en/informations.html" />
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" interactive-widget="resizes-content"/>
+    <link href="./img/AC.png" rel="icon">
+  </head>
+  <!--
+<script>
+  if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("./java/ErrorRedirect.js", { scope: "/" }).then(
+    (registration) => {
+      console.log("Service worker registration succeeded:", registration);
+    },
+    (error) => {
+      console.error(`Service worker registration failed: ${error}`);
+    },
+  );
+} else {
+  console.error("Service workers are not supported.");
+}
+</script>-->
+
+<body>
+    <div id="mobilebutton" style="z-index:2;">
+      <button class="open-btn" onclick="openNav()">
+        <svg viewBox="-1 0 10 10"id="hamburgerIcon">
+          <path d="M 0 1 H 8 M  0 5 H 8 M 0 9 H 8" fill="none" stroke="black" stroke-width="0.4" shape-rendering =" crispEdges "/>
+        </svg>
+      </button>
+    </div>
+      <div id="header" style="z-index:1;">
+
+        <div id="title">
+          <h1 style="font-weight: 300; font-size: 16pt; font-family: IBMPlexMono-Regular;">Adrien Currier</h1>
+        </div>
+        <div id="navbox">
+          <nav class="topnav">
+            <li><a hreflang="en" href="./en/informations.html" style="color:black;text-decoration:none">Information</a></li>
+            <li><a hreflang="en" href="./en/research.html" style="color:black;text-decoration:none">Research</a></li>
+            <li><a hreflang="en" href="./en/activities.html" style="color:black;text-decoration:none">Activities</a></li>
+            <li><a hreflang="en" href="./en/curriculumvitae.html" style="color:black;text-decoration:none">Curriculum Vitae</a></li>
+            <li><a hreflang="fr" href="./en/informations_fr.html" style="color:grey;text-decoration:none">Fran&ccedilais</a></li>
+          </nav>
+        </div>
+     </div>
+
+     <script src="./java/script.js"></script>
+     <div id="sidebar" style="z-index:3;">
+        <div id="cross">
+          <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="color:black;text-align:right;font-size: 25pt;text-decoration:none">&times</a></li>
+        </div>
+        <li><a hreflang="en" href="./en/informations.html" style="color:black;text-decoration:none">Information</a></li>
+        <li><a hreflang="en" href="./en/research.html" style="color:black;text-decoration:none">Research</a></li>
+        <li><a hreflang="en" href="./en/activities.html" style="color:black;text-decoration:none">Activities</a></li>
+        <li><a hreflang="en" href="./en/curriculumvitae.html" style="color:black;text-decoration:none">Curriculum Vitae</a></li>
+        <li><a hreflang="fr" href="./fr/informations.html" style="color:grey;text-decoration:none">Fran&ccedilais</a></li>
+     </div>
+</body>
+</html>

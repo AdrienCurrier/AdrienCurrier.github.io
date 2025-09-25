@@ -1,0 +1,16 @@
+
+Options +FollowSymLinks
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} www.math.sciences.univ-nantes\.fr [NC,OR]
+RewriteCond %{HTTPS_HOST} www.math.sciences.univ-nantes\.fr [NC]
+
+RewriteCond %{REQUEST_URI} ^/~currier/index.html$ [NC]
+
+RewriteRule ^(.*)$ "https://www.math.sciences.univ-nantes.fr/~currier/en/informations.html" [L]
+
+ErrorDocument 403 "https://www.math.sciences.univ-nantes.fr/~currier/PageNotFound.html"
+ErrorDocument 404 "https://www.math.sciences.univ-nantes.fr/~currier/PageNotFound.html"
+
+

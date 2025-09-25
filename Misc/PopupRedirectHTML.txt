@@ -1,0 +1,10 @@
+\\ Insert this after <body>
+
+
+<div class="popup-overlay" id="popupOverlay" style="z-index: 1;">
+      <div class="popup" id="popup">
+        <div><p>The new version of this webpage is hosted on the Peking University server.</p></div><div style=" display: flex; flex-direction: row;justify-content: space-between;flex-wrap: wrap;"><button id="closePopup" style="margin-top: 10px;">Close</button>  <button id="redirectMe" style="margin-top: 10px;">Take me there</button></div>
+      </div>
+    </div>
+
+<script src="../java/popup.js"></script>
