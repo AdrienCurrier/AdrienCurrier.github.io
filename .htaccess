@@ -3,14 +3,12 @@ Options +FollowSymLinks
 
 RewriteEngine on
 
-RewriteCond %{HTTP_HOST} www.math.sciences.univ-nantes\.fr [NC,OR]
-RewriteCond %{HTTPS_HOST} www.math.sciences.univ-nantes\.fr [NC]
+RewriteCond %{HTTP_HOST} https://adriencurrier.github\.io [NC,OR]
+RewriteCond %{HTTPS_HOST} https://adriencurrier.github\.io [NC]
 
-RewriteCond %{REQUEST_URI} ^/~currier/index.html$ [NC]
+RewriteCond %{REQUEST_URI} ^/index.html$ [NC]
 
-RewriteRule ^(.*)$ "https://www.math.sciences.univ-nantes.fr/~currier/en/informations.html" [L]
+RewriteRule ^(.*)$ "https://adriencurrier.github.io/en/informations.html" [L]
 
-ErrorDocument 403 "https://www.math.sciences.univ-nantes.fr/~currier/PageNotFound.html"
-ErrorDocument 404 "https://www.math.sciences.univ-nantes.fr/~currier/PageNotFound.html"
-
-
+ErrorDocument 403 "https://adriencurrier.github.io/PageNotFound.html"
+ErrorDocument 404 "https://adriencurrier.github.io/PageNotFound.html"
